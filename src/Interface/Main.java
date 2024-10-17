@@ -1,3 +1,5 @@
+package Interface;
+
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -18,7 +20,7 @@ public class Main {
                 System.out.println("\\\\\\\\\\\\\\\\ Login \\\\\\\\\\\\\\\\");
                 System.out.println("Enter your ");
 
-                System.out.println("User name:");
+                System.out.println("Interface.User name:");
                 Scanner sc1 = new Scanner(System.in);
                 String user = sc1.nextLine();
 
@@ -471,14 +473,14 @@ public class Main {
                             } else {
                                 System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\     Admin    " +
                                         "  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
-                                System.out.println("1.View User Information" + '\n' +
+                                System.out.println("1.View Interface.User Information" + '\n' +
                                         "2.Go back" + '\n' + "3.Exit" + '\n' +
                                         "Enter your selection: ");
                                 Scanner sc10 = new Scanner(System.in);
                                 int selct = sc10.nextInt();
                                 switch (selct) {
                                     case 1:
-                                        System.out.println("************     View User Information    ************");
+                                        System.out.println("************     View Interface.User Information    ************");
                                         System.out.println("1. Job Provider");
                                         System.out.println("2. Go Back");
                                         System.out.println("3. Exit");
