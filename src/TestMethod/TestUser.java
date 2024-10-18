@@ -10,7 +10,7 @@ public class TestUser {
     public void testLogin()
     {
         boolean expectedValue = true;
-        User user = new User("nafisa","www",".com","admin");
+        User user = new User("nafisa","www",".com","applicant");
 
         assertEquals(expectedValue,user.logIn());
     }
