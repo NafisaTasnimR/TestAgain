@@ -58,4 +58,10 @@ public class User {
         }
         return false;
     }
+
+    public void register()
+    {
+        
+    }
+
 }
